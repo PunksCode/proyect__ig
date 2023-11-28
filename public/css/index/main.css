@@ -3,7 +3,7 @@
     src: url('/SFPRODISPLAYBOLD.OTF') format('opentype');
     font-weight: bold;
   }
-  @font-face {
+@font-face {
     font-family: 'Display-Regular';
     src: url('/SFPRODISPLAYREGULAR.OTF') format('opentype');
     font-weight: normal; /* Indica que esta variante es regular */

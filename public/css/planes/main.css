@@ -1,0 +1,13 @@
+h2{
+    text-align: center;
+}
+.precio__1{
+    background: #182861;
+    border-radius: 10px;
+    width: 344px;
+    height: 85px;
+    margin: auto;
+}
+.precio__1 ul{
+    list-style: none;
+}

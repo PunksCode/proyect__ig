@@ -9,10 +9,7 @@
     z-index: -1;
     position: absolute;
 }
-.logo{
-    width: 77.76px;
-    height: 77.76px;
-}
+
 .banner{
     display: flex;
     flex-direction: row;
@@ -21,9 +18,12 @@
     margin-left: 74px;
     margin-right: 74px;
 }
+.logo{
+    width: 77.76px;
+    height: 77.76px;
+}
 .title{
     text-align: center;
-    color: white;
     font-size: 45px;
     color: white;
     margin: auto;

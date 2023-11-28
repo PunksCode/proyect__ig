@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Display-bold'; /* Puedes poner el nombre que desees */
+    src: url('/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: bold;
+  }
+@font-face {
+    font-family: 'Display-Regular';
+    src: url('/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal; /* Indica que esta variante es regular */
+  }
 .imagen{
     max-width: 390px;
     height: 844px;
@@ -24,18 +34,23 @@
     font-size: 26px;
     display: flex;
     flex-direction: column;
+    font-family: 'Display-bold';
 }
 
 .input {
     width: 305px;
     height: 47px;
     border-radius: 10px;
+    font-family: 'Display-Regular';
+    margin: auto;
 }
 
 input::placeholder {
     color: #4867DB;
 }
-
+.descripcion{
+    font-family: 'Display-Regular';
+}
 .btn__continuar {
     width: 168px;
     height: 43px;
@@ -44,4 +59,5 @@ input::placeholder {
     border: none;
     border-radius: 25px;
     cursor: pointer;
+    font-family: 'Display-Regular';
 } 
