@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Display-bold'; /* Puedes poner el nombre que desees */
+    src: url('/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: 'Display-Regular';
+    src: url('/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-weight: normal; /* Indica que esta variante es regular */
+  }
+:root{
+    --white: #FFFFFF;
+}
+.sub__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 74px 72px 26px 72px;
+}
+.sub__title{
+    font-family: 'Display-bold';
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.descripcion{
+    font-family: 'Display-Regular';
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn__start{
+    width: 169px;
+    height: 43px;
+    background: #4867DB;
+    color:#FFFFFF;
+    border-radius: 22px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Display-Regular';
+}

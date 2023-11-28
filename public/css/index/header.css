@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'ZTMota-Regular';
+    src: url('/ZTMota-Regular.otf') format('opentype');
+    font-weight: normal; 
+  }
+.logo{
+    width: 77.76px;
+    height: 77.76px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50%;
+    margin-left: 74px;
+    margin-right: 74px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    color: white;
+    margin: auto;
+    font-family:'ZTMota-Regular';
+}
