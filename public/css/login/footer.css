@@ -33,6 +33,7 @@ body {
     z-index: 2;
     position: absolute;
     margin: 553px 0 0 0;
+    height: 314px;
 }
 .label {
     font-size: 26px;
